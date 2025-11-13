@@ -21,7 +21,7 @@ Cara:
 https://www.capcut.com/tv2/ZSyWDJgaU/ (reload sampai muncul tombol claim)
 3. Hadiah: $5 + CapCut Pro gratis!
 
-#zonauang job receh info wfh part time loker lowongan dapet thr shopeepay
+job receh info wfh part time loker lowongan dapet thr shopeepay parttime
 `;
 
     // 📸 Upload dua gambar
@@ -39,3 +39,4 @@ https://www.capcut.com/tv2/ZSyWDJgaU/ (reload sampai muncul tombol claim)
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
