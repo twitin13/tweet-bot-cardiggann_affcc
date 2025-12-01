@@ -13,15 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu
     const textTweet = `
-FREELANCE DAPET 81 RB DARI CAPCUT KHUSUS NOVEMBER ‼️
+Open joki sesuai budget all spess 24/7 𐙚 📚 ☁︎｡
 
-Cara:
-1. Install CapCut
-2. Share Link dari sini 👇
-https://www.capcut.com/tv2/ZSyWDJgaU/ (reload sampai muncul tombol claim)
-3. Hadiah: $5 + CapCut Pro gratis!
+tugas soal, skripsi, makalah, proposal, jurnal, laporan, PPT, MYOB, ABSS, Zahir, Brevet Pajak, SAP, BNSP, TOEIC, TOEFL, dll.
 
-job receh info wfh part time loker lowongan dapet thr shopeepay parttime
+AVAIL SEMUA MATPEL/MATKUL ‼️
+
+*promo sertifikasi Accurate CAP cek bio ✨
 `;
 
     // 📸 Upload dua gambar
@@ -39,4 +37,5 @@ job receh info wfh part time loker lowongan dapet thr shopeepay parttime
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
