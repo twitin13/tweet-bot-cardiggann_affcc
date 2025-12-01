@@ -24,12 +24,11 @@ AVAIL SEMUA MATPEL/MATKUL ‼️
 
     // 📸 Upload dua gambar
     const mediaId1 = await client.v1.uploadMedia('1.jpg');
-    const mediaId2 = await client.v1.uploadMedia('2.jpg');
 
     // 🐦 Kirim tweet dengan teks + dua gambar
     const tweet = await client.v2.tweet({
       text: textTweet,
-      media: { media_ids: [mediaId1, mediaId2] },
+      media: { media_ids: [mediaId1] },
     });
 
     console.log('✅ Tweet terkirim:', tweet.data.id);
@@ -37,5 +36,6 @@ AVAIL SEMUA MATPEL/MATKUL ‼️
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
